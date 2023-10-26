@@ -24,7 +24,7 @@ while continue_program:
         new_password = encode(password)
         print("Your password has been encoded and stored!\n")
     elif option == 2:
-        print(f"The encoded password is {new_password}, and the original password is {password}.\n")
+        print(f"The encoded password is {new_password}, and the original password is {decode(new_password)}.\n")
     elif option == 3:
         continue_program = False
 
