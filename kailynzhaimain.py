@@ -1,3 +1,6 @@
+import decoder
+
+
 def encode(to_encode):
     s = ""
     for digit in to_encode:
