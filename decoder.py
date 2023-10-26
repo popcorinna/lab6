@@ -11,3 +11,4 @@ def decode(to_decode):
         elif int(i) == 2:
             decoded_num = "9"
         new_password += decoded_num
+        return new_password
