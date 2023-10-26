@@ -1,4 +1,4 @@
-import decoder
+from decoder import decode
 
 
 def encode(to_encode):
